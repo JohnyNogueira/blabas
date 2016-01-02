@@ -1,0 +1,35 @@
+{
+  "name": "blabas",
+  "version": "1.0.0",
+  "description": "blabas is anything that does not matter, bullshit",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnynogueira/blabas.git"
+  },
+  "author": {
+    "name": "Johny Noguera",
+    "email": "johnynogueira1@gmail.com",
+    "url": "https://github.com/johnynogueira"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --compilers js:babel/register",
+    "coverage": "istanbul cover _mocha -- --compilers js:babel/register" 
+  }, 
+  "keywords": [
+    "blabas",
+    "no operation",
+	  "does not matter"
+  ], 
+  "dependencies": {},
+  "devDependencies": {  
+    "babel-core": "^6.3.21",
+    "babel-preset-es2015": "^6.3.13",
+    "istanbul": "^0.3.17",
+    "chai": "^3.4.1",
+    "gulp": "^3.9.0",
+    "gulp-babel": "^6.1.0",
+    "mocha": "^2.3.4"
+  }
+}
